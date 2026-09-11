@@ -1,0 +1,63 @@
+{
+  "developer": "PrimeTruth Team",
+  "artistId": "6805296065",
+  "updated": "2026-09-11",
+  "apps": [
+    {
+      "id": "6805300613",
+      "slug": "trafficescape",
+      "bundle": "com.primetruthteam.trafficescape",
+      "name": "Traffic Escape: Car Puzzle",
+      "kind": "game",
+      "genre": "Games",
+      "released": "2026-08-31",
+      "version": "1.0.1",
+      "price": "Free",
+      "url": "https://apps.apple.com/app/id6805300613",
+      "icon": "assets/trafficescape.png",
+      "blurb": "Stuck in traffic? You're the one who gets to fix it."
+    },
+    {
+      "id": "6805357518",
+      "slug": "bloomsort",
+      "bundle": "com.primetruthteam.bloomsort",
+      "name": "BloomSort: Pour & Decorate",
+      "kind": "game",
+      "genre": "Games",
+      "released": "2026-08-31",
+      "version": "1.0",
+      "price": "Free",
+      "url": "https://apps.apple.com/app/id6805357518",
+      "icon": "assets/bloomsort.png",
+      "blurb": "Pour, sort and decorate — 180 levels, daily challenges, and a room that grows with you."
+    },
+    {
+      "id": "6809383391",
+      "slug": "scrollpause",
+      "bundle": "com.primetruthteam.scrollpause",
+      "name": "ScrollPause: Stop the Scroll",
+      "kind": "app",
+      "genre": "Productivity",
+      "released": "2026-09-09",
+      "version": "1.0",
+      "price": "Free",
+      "url": "https://apps.apple.com/app/id6809383391",
+      "icon": "assets/scrollpause.png",
+      "blurb": "One moment of friction between you and the app you opened without meaning to."
+    },
+    {
+      "id": "6808933177",
+      "slug": "tensweep",
+      "bundle": "com.primetruthteam.tensweep",
+      "name": "TenSweep: Sum to 10 Puzzle",
+      "kind": "game",
+      "genre": "Games",
+      "released": "2026-09-10",
+      "version": "1.0",
+      "price": "Free",
+      "url": "https://apps.apple.com/app/id6808933177",
+      "icon": "assets/tensweep.png",
+      "blurb": "Swipe, add up to 10, and sweep the board clean."
+    }
+  ]
+}
