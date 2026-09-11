@@ -1,45 +1,36 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PrimeTruth Team — small games and calm tools for iPhone</title>
-<meta name="description" content="Small puzzle games and calm tools for iPhone, made by one person with an AI agent. BloomSort, TenSweep, Traffic Escape, ScrollPause, Quill, Onefast.">
-<meta property="og:title" content="PrimeTruth Team"><meta property="og:description" content="Small games and calm tools for iPhone. One person, ten apps."><meta property="og:image" content="https://primetruthteam.github.io/assets/og.png">
-<link rel="icon" href="assets/tensweep.png">
-<style>
-:root{--bg:#0F172A;--surface:#1E293B;--ink:#F8FAFC;--muted:#94A3B8;--accent:#5EEAD4}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;padding:0 20px}
-main{max-width:880px;margin:0 auto;padding:56px 0 80px}header h1{font-size:40px;margin:0 0 8px;letter-spacing:-.02em}header p{color:var(--muted);margin:0 0 6px;max-width:60ch}
-.by{font-size:14px;color:var(--muted)}h2{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:48px 0 16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
-.card{display:flex;gap:16px;background:var(--surface);border-radius:22px;padding:18px;color:inherit;text-decoration:none;transition:transform .12s}a.card:hover{transform:translateY(-2px)}
-.card img,.ph{width:96px;height:96px;border-radius:22px;flex:none}.ph{background:#334155}.card h3{margin:2px 0 4px;font-size:18px}.card p{margin:0 0 8px;color:var(--muted);font-size:14px}
-.kind{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}.cta{font-size:14px;color:var(--accent);font-weight:600}.soon{opacity:.7}
-.links a{color:var(--accent);margin-right:18px}footer{margin-top:56px;color:var(--muted);font-size:14px}footer a{color:var(--muted)}
-@media(max-width:400px){header h1{font-size:32px}.card{flex-direction:column}}
-</style></head><body><main>
-<header><h1>PrimeTruth Team</h1><p>Small puzzle games and calm tools for iPhone — made by one person with an AI agent, building in public.</p><p class="by">Apps by Nguyen Dinh Chung · <a href="https://apps.apple.com/us/developer/nguyen-dinh-chung/id6805296065" style="color:var(--accent)">developer page on the App Store</a></p></header>
-<h2>On the App Store</h2><div class="grid">
-<a class="card" href="https://apps.apple.com/app/id6805300613" rel="noopener">
-  <img src="assets/trafficescape.png" alt="" width="96" height="96">
-  <div><span class="kind">game</span><h3>Traffic Escape: Car Puzzle</h3><p>Stuck in traffic? You&#x27;re the one who gets to fix it.</p><span class="cta">Download on the App Store →</span></div>
-</a>
-<a class="card" href="https://apps.apple.com/app/id6805357518" rel="noopener">
-  <img src="assets/bloomsort.png" alt="" width="96" height="96">
-  <div><span class="kind">game</span><h3>BloomSort: Pour &amp; Decorate</h3><p>Pour, sort and decorate — 180 levels, daily challenges, and a room that grows with you.</p><span class="cta">Download on the App Store →</span></div>
-</a>
-<a class="card" href="https://apps.apple.com/app/id6809383391" rel="noopener">
-  <img src="assets/scrollpause.png" alt="" width="96" height="96">
-  <div><span class="kind">app</span><h3>ScrollPause: Stop the Scroll</h3><p>One moment of friction between you and the app you opened without meaning to.</p><span class="cta">Download on the App Store →</span></div>
-</a>
-<a class="card" href="https://apps.apple.com/app/id6808933177" rel="noopener">
-  <img src="assets/tensweep.png" alt="" width="96" height="96">
-  <div><span class="kind">game</span><h3>TenSweep: Sum to 10 Puzzle</h3><p>Swipe, add up to 10, and sweep the board clean.</p><span class="cta">Download on the App Store →</span></div>
-</a>
-</div>
-<h2>Coming soon</h2><div class="grid">
-<div class="card soon"><img src="assets/quill.png" alt="" width="96" height="96"><div><span class="kind">app · coming soon</span><h3>Quill: Diary &amp; Journal</h3><p>A diary that locks with Face ID and never asks for a subscription.</p></div></div>
-<div class="card soon"><img src="assets/onefast.png" alt="" width="96" height="96"><div><span class="kind">app · coming soon</span><h3>Onefast</h3><p>Intermittent fasting timer that lives on your lock screen.</p></div></div>
-</div>
+<title>PrimeTruth Team — small games and calm tools for iPhone</title><meta name="description" content="Puzzle games you can finish on a bus ride and tools that leave your data on your iPhone. Made by one person with an AI agent.">
+<meta property="og:title" content="PrimeTruth Team — small games and calm tools for iPhone"><meta property="og:description" content="Puzzle games you can finish on a bus ride and tools that leave your data on your iPhone. Made by one person with an AI agent."><meta property="og:image" content="https://primetruthteam.github.io/assets/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/favicon.png"><link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body><div class="nav"><div class="wrap"><a class="logo" href=""><img class="mark" src="assets/logo-mark.png" alt="" width="30" height="30">PrimeTruth Team</a><nav><a href="games/">Games</a><a href="apps/">Apps</a><a href="press/">Press</a></nav><a class="pill" href="https://apps.apple.com/us/developer/nguyen-dinh-chung/id6805296065" rel="noopener">App Store ↗</a></div></div>
+<header class="hero"><div class="glow"></div><div class="wrap">
+  <div>
+    <span class="kicker"><i></i>4 apps on the App Store · 2 coming</span>
+    <h1>Small games.<br>Calm tools.<br><em>Made for iPhone.</em></h1>
+    <p class="lead">Puzzles you can finish on a bus ride, and tools that keep your data on your own phone. Built by one person with an AI agent — shipped in public, one app every couple of weeks.</p>
+    <div class="cta"><a class="badge" href="https://apps.apple.com/us/developer/nguyen-dinh-chung/id6805296065" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg><span><small>Download on the</small>App Store</span></a><a class="ghost" href="#doors">Explore ↓</a></div>
+    <div class="stats"><div><b>4</b><span>live on the App Store</span></div><div><b>2</b><span>coming soon</span></div><div><b>1 + 1</b><span>person + AI agent</span></div><div><b>175</b><span>countries &amp; regions</span></div></div>
+  </div>
+  <div class="cluster" aria-hidden="true"><img src="assets/bloomsort.png" alt="" class="fl l1" style="--s:150px" width="150" height="150"><img src="assets/tensweep.png" alt="" class="fl l2" style="--s:190px" width="190" height="190"><img src="assets/trafficescape.png" alt="" class="fl l3" style="--s:150px" width="150" height="150"><img src="assets/scrollpause.png" alt="" class="fl l4" style="--s:120px" width="120" height="120"><img src="assets/quill.png" alt="" class="fl l5" style="--s:108px" width="108" height="108"><img src="assets/onefast.png" alt="" class="fl l6" style="--s:96px" width="96" height="96"></div>
+</div></header>
 
-<h2>Press</h2><p>Icons, screenshots and a one-paragraph description for every app: <a href="press/" style="color:var(--accent)">press kit</a>. Contact: <a href="mailto:zenDesign219@gmail.com" style="color:var(--accent)">zenDesign219@gmail.com</a>.</p>
-<footer><a href="privacy/">Privacy Policy</a> · <a href="terms/">Terms of Service</a> · <a href="app-ads.txt">app-ads.txt</a><br>© 2026 PrimeTruth Team</footer>
-</main></body></html>
+<section id="doors"><div class="wrap"><div class="doors">
+  <a class="door games reveal" href="games/"><div><span class="kicker"><i></i>3 games · free</span><h2>Games</h2><p>Quick puzzles you can finish on a bus ride. Ads stay non-personalised and child-safe.</p></div><div><div class="icons"><img src="assets/trafficescape.png" alt=""><img src="assets/bloomsort.png" alt=""><img src="assets/tensweep.png" alt=""></div></div><span class="go">See all games</span></a>
+  <a class="door apps reveal" href="apps/"><div><span class="kicker"><i></i>1 live · 2 coming</span><h2>Apps</h2><p>Calm tools that do one thing and keep your data on your own iPhone.</p></div><div><div class="icons"><img src="assets/scrollpause.png" alt=""><img class="dim" src="assets/quill.png" alt=""><img class="dim" src="assets/onefast.png" alt=""></div></div><span class="go">See all apps</span></a>
+</div></div></section>
+
+<section class="brandband"><div class="wrap"><figure class="reveal"><img src="assets/cover.jpg" alt="PrimeTruth — apps, games, more" width="1600" height="600" loading="lazy"><figcaption>PrimeTruth · apps / games / more</figcaption></figure></div></section>
+
+<section><div class="wrap"><div class="sec-h"><h2>How we build</h2></div><div class="principles">
+  <div class="pr reveal"><b>🔒</b><h3>Private by design</h3><p>Our tools keep your data on your iPhone or in your own iCloud. No accounts, no servers of ours, nothing for anyone else to read.</p></div>
+  <div class="pr reveal"><b>🎯</b><h3>One thing, done well</h3><p>Every app has one job. No feeds, no streak-shaming, no dark patterns — and Pro, where it exists, is a one-time purchase.</p></div>
+  <div class="pr reveal"><b>🛠</b><h3>Built in public</h3><p>One person and an AI coding agent, shipping a new app every couple of weeks and writing down every mistake so the next app avoids it.</p></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="band reveal"><div><h2>Writing about one of our apps?</h2><p>Icons, screenshots, facts and a one-paragraph description — ready to paste.</p></div><a class="ghost" href="press/">Open the press kit →</a></div></div></section>
+<footer><div class="wrap"><div>© 2026 PrimeTruth Team · Apps by Nguyen Dinh Chung</div><div class="follow"></div><div><a href="privacy/">Privacy</a> · <a href="terms/">Terms</a> · <a href="press/">Press</a> · <a href="mailto:zenDesign219@gmail.com">Contact</a></div></div></footer>
+<script>const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));</script>
+</body></html>
