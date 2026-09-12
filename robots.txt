@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://primetruthteam.github.io/sitemap.xml

@@ -37,7 +37,7 @@ h1 em{font-style:normal;background:linear-gradient(90deg,var(--teal),var(--sky) 
 .l1{left:6%;top:8%;animation-delay:-1s;transform:rotate(-8deg)}.l2{left:38%;top:22%;animation-delay:-2.5s;transform:rotate(4deg)}.l3{left:2%;top:52%;animation-delay:-4s;transform:rotate(6deg)}
 .l4{left:64%;top:62%;animation-delay:-3s;transform:rotate(-5deg)}.l5{left:74%;top:6%;animation-delay:-.5s;transform:rotate(9deg)}.l6{left:40%;top:70%;animation-delay:-5s;transform:rotate(-10deg)}
 @keyframes float{0%,100%{translate:0 0}50%{translate:0 -14px}}
-@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.cluster{height:300px;order:-1}.fl{--s:calc(var(--s)*.72)}}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.cluster{height:300px;order:-1}}
 @media(prefers-reduced-motion:reduce){.fl,.hero .glow{animation:none}}
 /* sections */
 section{padding:56px 0}.sec-h{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:26px}
@@ -93,3 +93,22 @@ footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);f
 .prose table{border-collapse:collapse;width:100%;font-size:15px}.prose td{padding:9px 10px;border-top:1px solid var(--line);vertical-align:top}.prose td:first-child{color:var(--muted);white-space:nowrap}
 .prose code{background:rgba(255,255,255,.08);padding:2px 6px;border-radius:6px}.prose li{margin:4px 0}.prose a{color:var(--teal)}
 .shots{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}.shots img{height:380px;border-radius:16px;border:1px solid var(--line)}
+/* ---- 12/09 review Authority: khoảng cách đồng nhất · chống tràn ngang · stats to · ảnh không méo ---- */
+:root{--secY:clamp(44px,6vw,80px);--heroY:clamp(56px,8vw,104px);--gap:clamp(14px,2.2vw,20px);--pad:clamp(18px,3vw,26px);--gutter:clamp(18px,4vw,28px)}
+html,body{overflow-x:hidden;max-width:100vw}
+.wrap{width:min(1120px,100% - 2*var(--gutter))}
+.hero,.page-h,.detail-h,.brandband{overflow:hidden}
+section{padding:var(--secY) 0 0}section:last-of-type{padding-bottom:var(--secY)}
+.hero{padding:var(--heroY) 0 var(--secY)}.page-h,.detail-h{padding:var(--heroY) 0 0}
+.grid,.doors,.principles{gap:var(--gap)}.card,.pr{padding:var(--pad)}.door{padding:clamp(24px,4vw,34px)}
+.band{padding:clamp(26px,4vw,44px);margin:0}.sec-h{margin-bottom:clamp(16px,2.6vw,26px)}.two{gap:clamp(20px,4vw,36px)}
+.detail-h .wrap{gap:clamp(18px,3vw,30px)}.detail-h h1{margin:10px 0 4px}
+.stats{gap:clamp(16px,3vw,28px);margin-top:clamp(28px,4vw,44px);padding-top:clamp(20px,3vw,28px)}
+.stats div b{font-size:clamp(38px,5.4vw,56px);line-height:1.05;letter-spacing:-.03em}.stats div span{font-size:14px}
+.card .icon,.door .icons img,.detail-h .icon{aspect-ratio:1/1;object-fit:cover}
+.fl{width:calc(var(--s)*var(--k,1));height:calc(var(--s)*var(--k,1));border-radius:calc(var(--s)*var(--k,1)*.225);object-fit:cover}
+@media(max-width:900px){.fl{--k:.72}}
+.shots-strip img{width:auto;max-width:none;height:min(560px,70vh);object-fit:contain}
+footer .wrap{gap:14px 24px}footer a{margin-right:0}.follow{display:flex;flex-wrap:wrap;gap:6px 16px}
+.stats{grid-template-columns:repeat(auto-fit,minmax(105px,1fr))}
+.prose td:first-child{white-space:normal;min-width:7em}.prose td{overflow-wrap:anywhere}.prose table{display:block;overflow-x:auto}.prose a{overflow-wrap:anywhere}
